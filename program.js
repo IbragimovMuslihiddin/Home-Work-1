@@ -86,7 +86,7 @@ function isPrime(num){
 }
 
 function hasUniqueDigits (num){
-    for(let i = num; i > 0; i = Math.floor(i / 10)){
+    for(let i = num; i > 0; i = Math.floor(i / 10)){     
         for(let j = i; j > 0; j = Math.floor(j / 10)){
             if(i % 10 == j % 10){
                 return false;
